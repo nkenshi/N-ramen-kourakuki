@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>N君のラーメン行楽記</title>
+         <!--リセットcss、修飾用cssを入力-->
+         <link rel="stylesheet" href="src-stylesheet.css">
+    </head>
+
+    <body>
+        <!--テンプレート-->
+        <header>
+             <!--ラーメン/旅行写真を入れる(background image)-->
+             <!--メインページへのリンク付き画像を貼る-->
+             <nav>
+                <div class="links">
+                <div class="links-item">
+                    <a href="mainpage.html"><img src="image/タイトル.png" class="main-link " ></a>
+                </div>
+                 <!--探す、記事を読むページへのリンク-->
+                     <!--探す-->
+                <div class="links-item">
+                    <div class="weblinks">
+                    <a href="search.html"><div class="weblink-item search">探す</div></a>
+                     <!--記事を読む-->
+                    <a href="article.html"><div class="weblink-item article">記事を読む</div></a>
+                    </div>
+                </div>
+                </div>
+                <!--縦に並べる方とそうでない方で大きくグループ分けし、全体と縦の両方に対してdisplay:flexをかけた-->
+             </nav>
+        </header>
+        <!--ここまでテンプレート-->
+    <main>
+        <h1 class="title">
+            探す
+        </h1>
+        <div class="container">
+            <div class="item">
+                <div class="box">
+                    <p>
+                        路線から探す<br><span>路線名を入力して検索</span>
+                    </p>
+                </div>
+                <div>
+                    <form >
+                        <input type="search" name="rosen-search" placeholder="路線名を入力">
+                        <input type="submit" name="rosen-search" value="検索">
+                    </form>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <p>
+                        駅名から探す<br><span>駅名を入力して検索</span>
+                    </p>
+                </div>
+                <div>
+                    <form >
+                    <input type="search" name="eki-search" placeholder="駅名を入力">
+                    <input type="submit" name="eki-search" value="検索">
+                    </form>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <p>
+                        店名から探す<br><span>店名を入力して検索</span>
+                    </p>
+                </div>
+                <div>
+                    <form >
+                    <input type="search" name="mise-search" placeholder="店名を入力">
+                    <input type="submit" name="mise-search" value="検索">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>    
+    </body>
+</html>
