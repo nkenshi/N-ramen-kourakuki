@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*テンプレート*/
+body{
+    background-color:#fcfddd80
+}
+/*ヘッダー部分*/
+header{
+    background-image:url(image/ヘッダー用画像.jpg);
+    background-size: cover;
+    height: 400px;
+}
+/*ナビゲーション部分*/
+.main-link{
+    width: 500px;
+    height: 150px;
+    background-color: #ffffffb9;
+    border-style:solid;
+    border-color: #707070;
+    border-radius: 70px;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+}
+.weblinks{
+    display:flex;
+    flex-direction: column;
+
+}
+.weblink-item{
+    border-style:solid;
+    border-radius: 25px;
+    background-color:#D5F5CC;
+    font-size:1.5em;
+    height:40px;
+    text-align: center;
+    padding-top:10px;
+    margin-top:10px;
+
+}
+.search{
+    width: 100px;
+    margin-left:25px;
+}
+.article{
+    width: 150px;
+    margin-right:50px;
+}
+/*ここまでテンプレート*/
+h1.title{
+    margin:30px 0px 30px 80px;
+}
+h2.subtitle{
+    margin:30px 0px 30px 80px;
+}
+.article-image{
+    height: 150px;
+    width:220px;
+}
+.item{
+    margin:0 15px;
+}
+.new-article{
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.recommend{
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
