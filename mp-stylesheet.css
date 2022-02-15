@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body{
+    background-color:#fcfddd86;
+}
+/*ヘッダー部分*/
+header{
+    background-image:url(image/ヘッダー用画像.jpg);
+    background-size: cover;
+    height: 400px;
+}
+/*メイン部分*/
+.title-image{
+    width:86%;
+    margin:20px 7% 10px 7%;
+    padding:1em;
+    background-color:#ffffff;
+    border-style: solid;
+    border-color:#707070;
+    border-radius: 200px;
+    border-width:7px;
+}
+.main-background{
+    background-image:url(image/背景用画像.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#707070;
+    height:983px;
+    margin-bottom:50px;
+}
+.outline{
+    font-family:"游明朝";
+    font-size:4.5em;
+    line-height: 3em;
+    text-align: center;
+    padding-top:20%;
+    color:#ffffff;
+    font-weight:2000;
+}
+/*ナビゲーション部分*/
+.main-link{
+    width: 500px;
+    height: 150px;
+    background-color: #ffffffb9;
+    border-style:solid;
+    border-color: #707070;
+    border-radius: 70px;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/*探す、記事を読むページへのリンクボタン*/
+/*文字だけでなく背景もまとめてリンク化したい*/
+.item1{
+    border-style:solid;
+    border-radius: 75px;
+    background-color:#D5F5CC;
+    font-size:1.75em;
+    width: 400px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.search{
+    padding-top: 25px;
+    height: 125px;
+}
+.article{
+    padding-top: 55px;
+    height:95px;
+}
+.container1{
+    display:flex;
+    justify-content:space-around;
+    max-height:400px;
+    width:100%;
+    flex-wrap:wrap;
+}
+.text{
+    font-size:0.5em;
+}
+/*おすすめ記事欄*/
+.favorite{
+    margin-left: 8%;
+}
+.container2{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+
+}
+.items{
+    text-align: center;
+    margin:10px;
+}
+.article-image{
+    height: 150px;
+    width:220px;
+}
