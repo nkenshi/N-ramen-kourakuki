@@ -1,0 +1,97 @@
+<!--ラーメン行楽記のテンプレートファイル-->
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>N君のラーメン行楽記</title>
+        <!--リセットcss、修飾用cssを入力-->
+        <link rel="stylesheet" href="al-artc-stylesheet.css">
+    </head>
+    <body>
+         <!--テンプレート-->
+         <header>
+            <!--ラーメン/旅行写真を入れる(background image)-->
+            <!--メインページへのリンク付き画像を貼る-->
+            <nav>
+               <div class="links">
+               <div class="links-item">
+                   <a href="mainpage.html"><img src="image/タイトル.png" class="main-link " ></a>
+               </div>
+                <!--探す、記事を読むページへのリンク-->
+                    <!--探す-->
+               <div class="links-item">
+                   <div class="weblinks">
+                   <a href="search.html"><div class="weblink-item search">探す</div></a>
+                    <!--記事を読む-->
+                   <a href="article.html"><div class="weblink-item article">記事を読む</div></a>
+                   </div>
+               </div>
+               </div>
+               <!--縦に並べる方とそうでない方で大きくグループ分けし、全体と縦の両方に対してdisplay:flexをかけた-->
+            </nav>
+       </header>
+       <!--ここまでテンプレート-->
+       <main>
+           <h1 class="title">N君のラーメン行楽記 vol.1.1.1　燃えよ麺助</h1>
+           <div class="contents">
+           <article>
+                <p>こんにちは。N君です。本日はJR環状線福島駅から歩いて10分ほどのところにある、燃えよ麺助にやってきました。</p>
+                <p>燃えよ麺助は初来店でした。そのため、まずは看板メニューである「紀州鴨そば」、そしてサイドメニューとして「炙りチャーシュー丼」をいただきました。</p>
+                <br><img src="image/ラーメン/燃えよ麺助1.jpg" class="food">
+                <p>（写真左：炙りチャーシュー丼（味玉トッピング）、写真中央：紀州鴨そば）</p>
+                <h2>レビュー</h2>
+                <p class="menu-name">★炙りチャーシュー丼</p>
+                <p>名前の通り、表面を炙ったチャーシューをブロック状にカットし、タレを絡めて白米の上に乗せています。</p>
+                <p>甘辛いタレと炙られたチャーシューの風味は白米との相性抜群で、すぐに平らげてしまいました。</p>
+                <p class="menu-name">★紀州鴨そば</p>
+                <p>スープは非常に透明度が高い醤油ベース。しかしながら、鳥の旨味を最大限に活用しており、見た目以上に満足度の高いスープでした。</p>
+                <p>チャーシューは薄く切られており、弾力のあるチャーシューとの相性抜群です。</p>
+                <p>細くてツルツルした食感の麺はスープに非常にマッチしており、完成度の高さが感じられました。</p>
+                <p>来店時、20人レベルの行列ができていましたが、納得の味でした。また近くに来た際にはぜひ寄ってみたいです。</p>
+                <p class="subtitle">〇店舗へのアクセス</p>
+                <a href="https://goo.gl/maps/NZVdASc3PQTb1ULa9">店舗の位置情報はこちら</a><br>
+                <a>JR環状線福島駅周辺の他のラーメン記事はこちら</a>
+           </article>
+           <aside>
+                <h2>燃えよ麺助の他の記事</h2>
+                <!--リンク先のURLを貼るのを忘れない-->
+                <div class="other">
+                    <div class="other-items">
+                        <img src="image/no-image.jpg" class="article-image">
+                        <p>鋭意更新中</p> 
+                    </div>
+                    <div class="other-items">
+                          <img src="image/no-image.jpg" class="article-image">
+                          <p>鋭意更新中</p> 
+                    </div>
+                    <div class="other-items">
+                          <img src="image/no-image.jpg" class="article-image">
+                          <p>鋭意更新中</p> 
+                    </div>
+                </div>
+           </aside>
+           </div>
+           <footer>
+               <h2 class="title">おすすめ記事</h2>
+                   <div class="favorite">
+                       <div class="favorite-items">
+                           <a>記事タイトル</a>
+                           <img src="image/no-image.jpg" class="article-img">
+                       </div>
+                       <div class="favorite-items">
+                        <a>記事タイトル</a>
+                        <img src="image/no-image.jpg" class="article-img">
+                        </div>
+                        <div class="favorite-items">
+                            <a>記事タイトル</a>
+                            <img src="image/no-image.jpg" class="article-img">
+                        </div>
+                        <div class="favorite-items">
+                            <a>記事タイトル</a>
+                            <img src="image/no-image.jpg" class="article-img">
+                        </div>
+                   </div>
+           </footer>
+       </main>
+    </body>
+</html>
